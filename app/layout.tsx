@@ -4,15 +4,15 @@ import { ThemeProvider } from "@wrksz/themes/next";
 import "./globals.css";
 import { AppBar } from "./AppBar";
 
-const siteUrl = "https://www.freimann.lv";
-const siteName = "Uri Freimann";
+const siteUrl = "https://freimann.lv";
+const siteName = "Iurii Korotkov";
 const siteDescription =
-  "Embedded bare-metal Rust engineer. ESP32-S3 + OV5640 streaming FullHD video over WebRTC, with a Next.js benchmark.";
+  "Embedded bare-metal Rust project with ESP32-S3 + OV5640 streaming FullHD video over WebRTC, a Next.js benchmark and Expo app for OTA over BLE.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${siteName} — Embedded Rust Engineer`,
+    default: `${siteName} - Embedded Rust Engineer`,
     template: `%s | ${siteName}`,
   },
   description: siteDescription,
@@ -22,13 +22,13 @@ export const metadata: Metadata = {
     type: "website",
     url: siteUrl,
     siteName,
-    title: `${siteName} — Embedded Rust Engineer`,
+    title: `${siteName} - Embedded Rust Engineer`,
     description: siteDescription,
     images: [{ url: "/og.png", width: 1200, height: 630, alt: siteName }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteName} — Embedded Rust Engineer`,
+    title: `${siteName} - Embedded Rust Engineer`,
     description: siteDescription,
     images: ["/og.png"],
   },
@@ -39,10 +39,10 @@ const personJsonLd = {
   "@type": "Person",
   sameAs: [
     "https://github.com/uri-freimann",
-    "https://linkedin.com/in/uri-freimann-aa661b359/",
+    "https://linkedin.com/in/iurii-korotkov-aa661b359",
   ],
-  name: "Uri Freimann",
-  alternateName: ["uri-freimann", "Iurii Korotkov", "Юрий Коротков"],
+  name: "Iurii Korotkov",
+  alternateName: ["Uri Freimann", "uri-freimann", "Юрий Коротков"],
   jobTitle: "Embedded Rust Engineer",
   url: siteUrl,
 
