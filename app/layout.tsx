@@ -37,25 +37,40 @@ export const metadata: Metadata = {
 const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
+  sameAs: [
+    "https://github.com/uri-freimann",
+    "https://linkedin.com/in/uri-freimann-aa661b359/",
+  ],
   name: "Uri Freimann",
-  alternateName: ["uri-freimann", "Uris Freimanis", "Iurii Korotkov"],
-  url: siteUrl,
+  alternateName: ["uri-freimann", "Iurii Korotkov", "Юрий Коротков"],
   jobTitle: "Embedded Rust Engineer",
+  url: siteUrl,
+
   knowsAbout: [
     {
       "@type": "Thing",
-      name: "Rust",
-      sameAs: "https://www.wikidata.org/wiki/Q575650",
+      name: "Bluetooth Low Energy",
+      sameAs: "https://www.wikidata.org/wiki/Q1638779",
     },
     {
       "@type": "Thing",
-      name: "ESP32-S3",
-      sameAs: "https://www.wikidata.org/wiki/Q110126851",
+      name: "C++",
+      sameAs: "https://www.wikidata.org/wiki/Q2407",
     },
     {
       "@type": "Thing",
-      name: "WebRTC",
-      sameAs: "https://www.wikidata.org/wiki/Q1089715",
+      name: "embedded system",
+      sameAs: "https://www.wikidata.org/wiki/Q193040",
+    },
+    {
+      "@type": "Thing",
+      name: "ESP32",
+      sameAs: "https://www.wikidata.org/wiki/Q27921668",
+    },
+    {
+      "@type": "Thing",
+      name: "JLCPCB",
+      sameAs: "https://www.wikidata.org/wiki/Q124808320",
     },
     {
       "@type": "Thing",
@@ -69,22 +84,29 @@ const personJsonLd = {
     },
     {
       "@type": "Thing",
-      name: "Motion JPEG",
-      sameAs: "https://www.wikidata.org/wiki/Q850954",
+      name: "Rust",
+      sameAs: "https://www.wikidata.org/wiki/Q575650",
     },
     {
       "@type": "Thing",
-      name: "Advanced Video Coding",
-      sameAs: "https://www.wikidata.org/wiki/Q212633",
+      name: "search engine optimization",
+      sameAs: "https://www.wikidata.org/wiki/Q180711",
     },
-    "OmniVision OV5640",
-    "Rust Embedded",
-    "bare-metal programming",
-    "Expo framework",
-  ],
-  sameAs: [
-    "https://github.com/uri-freimann",
-    "https://www.linkedin.com/in/uri-freimann-aa661b359/",
+    {
+      "@type": "Thing",
+      name: "STM32",
+      sameAs: "https://www.wikidata.org/wiki/Q7394773",
+    },
+    {
+      "@type": "Thing",
+      name: "Tomsk State University of Control Systems and Radio-electronics",
+      sameAs: "https://www.wikidata.org/wiki/Q4460386",
+    },
+    {
+      "@type": "Thing",
+      name: "WebRTC",
+      sameAs: "https://www.wikidata.org/wiki/Q1089715",
+    },
   ],
 };
 
