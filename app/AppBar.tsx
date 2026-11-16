@@ -18,7 +18,7 @@ const NAV_ITEMS = [
   { title: "Home", url: "/", icon: Home },
   { title: "About", url: "/about", icon: User },
   { title: "Projects", url: "/projects", icon: FolderGit2 },
-  { title: "EmbRust", url: "/projects/video-embrust", icon: Cpu },
+  { title: "Rust", url: "/projects/video-embrust", icon: Cpu },
   { title: "Next.js", url: "/projects/video-nextjs", icon: Globe },
   { title: "Expo", url: "/projects/video-expo", icon: Smartphone },
 ];

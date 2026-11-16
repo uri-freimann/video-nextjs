@@ -12,7 +12,7 @@ const siteDescription =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${siteName} - EmbRust Engineer`,
+    default: `${siteName} - Embedded Rust Engineer`,
     template: `%s | ${siteName}`,
   },
   description: siteDescription,
@@ -22,13 +22,13 @@ export const metadata: Metadata = {
     type: "website",
     url: siteUrl,
     siteName,
-    title: `${siteName} - EmbRust Engineer`,
+    title: `${siteName} - Embedded Rust Engineer`,
     description: siteDescription,
     images: [{ url: "/og.png", width: 1200, height: 630, alt: siteName }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteName} - EmbRust Engineer`,
+    title: `${siteName} - Embedded Rust Engineer`,
     description: siteDescription,
     images: ["/og.png"],
   },
@@ -43,7 +43,7 @@ const personJsonLd = {
   ],
   name: "Iurii Korotkov",
   alternateName: ["Uri Freimann", "uri-freimann", "Юрий Коротков"],
-  jobTitle: "EmbRust Engineer",
+  jobTitle: "Embedded Rust Engineer",
   url: siteUrl,
 
   knowsAbout: [
@@ -66,6 +66,11 @@ const personJsonLd = {
       "@type": "Thing",
       name: "ESP32",
       sameAs: "https://www.wikidata.org/wiki/Q27921668",
+    },
+    {
+      "@type": "Thing",
+      name: "firmware",
+      sameAs: "https://www.wikidata.org/wiki/Q104851",
     },
     {
       "@type": "Thing",
