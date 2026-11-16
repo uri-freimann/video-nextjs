@@ -12,7 +12,7 @@ const siteDescription =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${siteName} - Embedded Rust Engineer`,
+    default: `${siteName} - EmbRust Engineer`,
     template: `%s | ${siteName}`,
   },
   description: siteDescription,
@@ -22,13 +22,13 @@ export const metadata: Metadata = {
     type: "website",
     url: siteUrl,
     siteName,
-    title: `${siteName} - Embedded Rust Engineer`,
+    title: `${siteName} - EmbRust Engineer`,
     description: siteDescription,
     images: [{ url: "/og.png", width: 1200, height: 630, alt: siteName }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteName} - Embedded Rust Engineer`,
+    title: `${siteName} - EmbRust Engineer`,
     description: siteDescription,
     images: ["/og.png"],
   },
@@ -43,7 +43,7 @@ const personJsonLd = {
   ],
   name: "Iurii Korotkov",
   alternateName: ["Uri Freimann", "uri-freimann", "Юрий Коротков"],
-  jobTitle: "Embedded Rust Engineer",
+  jobTitle: "EmbRust Engineer",
   url: siteUrl,
 
   knowsAbout: [
@@ -109,15 +109,6 @@ const personJsonLd = {
     },
   ],
 };
-
-const navItems = [
-  { title: "Home", url: "/" },
-  { title: "About", url: "/about" },
-  { title: "Projects", url: "/projects" },
-  { title: "Rust", url: "/projects/video-rust-esp" },
-  { title: "Next.js", url: "/projects/video-nextjs" },
-  { title: "Expo", url: "/projects/video-expo" },
-];
 
 export default function RootLayout({
   children,

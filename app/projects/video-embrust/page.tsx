@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
       <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-        Rust Page
+        EmbRust Page
       </h1>
 
       <p className="mt-6">
@@ -19,7 +19,7 @@ export default function Page() {
           className="text-[#ab47bc] underline underline-offset-2 transition-colors hover:text-[#8e24aa] dark:text-[#ce93d8] dark:hover:text-[#ab47bc]"
           rel="noopener"
         >
-          github.com/uri-freimann/video-rust-esp
+          github.com/uri-freimann/video-embrust
         </a>
       </p>
     </div>
