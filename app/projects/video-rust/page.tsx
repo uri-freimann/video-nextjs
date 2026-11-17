@@ -15,11 +15,11 @@ export default function Page() {
 
       <p className="mt-6">
         <a
-          href="https://github.com/uri-freimann/video-embrust"
+          href="https://github.com/uri-freimann/video-rust"
           className="text-[#ab47bc] underline underline-offset-2 transition-colors hover:text-[#8e24aa] dark:text-[#ce93d8] dark:hover:text-[#ab47bc]"
           rel="noopener"
         >
-          github.com/uri-freimann/video-embrust
+          github.com/uri-freimann/video-rust
         </a>
       </p>
     </div>
